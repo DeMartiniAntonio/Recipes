@@ -1625,7 +1625,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
 // import icons from '../img/icons.svg'; // Parcel 1
-var _iconsSvg = require("url:../../img/icons.svg"); // Parcel 2
+var _iconsSvg = require("url:../../../public/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 /* NOTE: The Fractional package has been reported to cause an error when deployed to a server. I suggest you to use Fracty instead. */ // import { Fraction } from 'fractional';
 var _fracty = require("fracty");
@@ -1748,10 +1748,10 @@ class RecipeView extends (0, _viewJsDefault.default) {
 }
 exports.default = new RecipeView();
 
-},{"./View.js":"jSw21","url:../../img/icons.svg":"fd0vu","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jSw21":[function(require,module,exports,__globalThis) {
+},{"./View.js":"jSw21","url:../../../public/icons.svg":"8r3pW","fracty":"gsPKI","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jSw21":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _iconsSvg = require("url:../../img/icons.svg"); // Parcel 2
+var _iconsSvg = require("url:../../../public/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class View {
     _data;
@@ -1832,8 +1832,8 @@ class View {
 }
 exports.default = View;
 
-},{"url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"fd0vu":[function(require,module,exports,__globalThis) {
-module.exports = module.bundle.resolve("icons.0809ef97.svg") + "?" + Date.now();
+},{"url:../../../public/icons.svg":"8r3pW","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"8r3pW":[function(require,module,exports,__globalThis) {
+module.exports = module.bundle.resolve("icons.31677648.svg") + "?" + Date.now();
 
 },{}],"gsPKI":[function(require,module,exports,__globalThis) {
 // FRACTY CONVERTS DECIMAL NUMBERS TO FRACTIONS BY ASSUMING THAT TRAILING PATTERNS FROM 10^-2 CONTINUE TO REPEAT
@@ -1959,7 +1959,7 @@ var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
 var _previewViewJs = require("./previewView.js");
 var _previewViewJsDefault = parcelHelpers.interopDefault(_previewViewJs);
-var _iconsSvg = require("url:../../img/icons.svg"); // Parcel 2
+var _iconsSvg = require("url:../../../public/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class ResultsView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector('.results');
@@ -1971,12 +1971,12 @@ class ResultsView extends (0, _viewJsDefault.default) {
 }
 exports.default = new ResultsView();
 
-},{"./View.js":"jSw21","./previewView.js":"6tKHS","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6tKHS":[function(require,module,exports,__globalThis) {
+},{"./View.js":"jSw21","./previewView.js":"6tKHS","url:../../../public/icons.svg":"8r3pW","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"6tKHS":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
-var _iconsSvg = require("url:../../img/icons.svg"); // Parcel 2
+var _iconsSvg = require("url:../../../public/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class PreviewView extends (0, _viewJsDefault.default) {
     _parentElement = '';
@@ -2004,12 +2004,12 @@ class PreviewView extends (0, _viewJsDefault.default) {
 }
 exports.default = new PreviewView();
 
-},{"./View.js":"jSw21","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"7NIiB":[function(require,module,exports,__globalThis) {
+},{"./View.js":"jSw21","url:../../../public/icons.svg":"8r3pW","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"7NIiB":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
-var _iconsSvg = require("url:../../img/icons.svg"); // Parcel 2
+var _iconsSvg = require("url:../../../public/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class PaginationView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector('.pagination');
@@ -2063,14 +2063,14 @@ class PaginationView extends (0, _viewJsDefault.default) {
 }
 exports.default = new PaginationView();
 
-},{"./View.js":"jSw21","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"1qGeA":[function(require,module,exports,__globalThis) {
+},{"./View.js":"jSw21","url:../../../public/icons.svg":"8r3pW","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"1qGeA":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
 var _previewViewJs = require("./previewView.js");
 var _previewViewJsDefault = parcelHelpers.interopDefault(_previewViewJs);
-var _iconsSvg = require("url:../../img/icons.svg"); // Parcel 2
+var _iconsSvg = require("url:../../../public/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class BookmarksView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector('.bookmarks__list');
@@ -2085,12 +2085,12 @@ class BookmarksView extends (0, _viewJsDefault.default) {
 }
 exports.default = new BookmarksView();
 
-},{"./View.js":"jSw21","./previewView.js":"6tKHS","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"8AWnP":[function(require,module,exports,__globalThis) {
+},{"./View.js":"jSw21","./previewView.js":"6tKHS","url:../../../public/icons.svg":"8r3pW","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"8AWnP":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
-var _iconsSvg = require("url:../../img/icons.svg"); // Parcel 2
+var _iconsSvg = require("url:../../../public/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class AddRecipeView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector('.upload');
@@ -2129,6 +2129,6 @@ class AddRecipeView extends (0, _viewJsDefault.default) {
 }
 exports.default = new AddRecipeView();
 
-},{"./View.js":"jSw21","url:../../img/icons.svg":"fd0vu","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5DuvQ","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
+},{"./View.js":"jSw21","url:../../../public/icons.svg":"8r3pW","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5DuvQ","7dWZ8"], "7dWZ8", "parcelRequire3a11", {}, "./", "/")
 
 //# sourceMappingURL=ReactFaceDetection.4a59a05f.js.map
