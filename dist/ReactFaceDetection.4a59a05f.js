@@ -1624,7 +1624,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _viewJs = require("./View.js");
 var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
-// import icons from '../img/icons.svg'; // Parcel 1
+// import icons from '../img/public/icons.svg'; // Parcel 1
 var _iconsSvg = require("url:../../../public/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 /* NOTE: The Fractional package has been reported to cause an error when deployed to a server. I suggest you to use Fracty instead. */ // import { Fraction } from 'fractional';
